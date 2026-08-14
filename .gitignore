@@ -1,12 +1,12 @@
 # Application
-web/app/plugins/*
-!web/app/plugins/.gitkeep
-web/app/mu-plugins/*/
-web/app/themes/twentytwentyfive/
-web/app/upgrade
-web/app/uploads/*
-!web/app/uploads/.gitkeep
-web/app/cache/*
+# web/app/plugins/*
+# !web/app/plugins/.gitkeep
+# web/app/mu-plugins/*/
+# web/app/themes/twentytwentyfive/
+# web/app/upgrade
+# web/app/uploads/*
+# !web/app/uploads/.gitkeep
+# web/app/cache/*
 
 # WordPress
 web/wp
@@ -16,8 +16,8 @@ web/.htaccess
 *.log
 
 # Dotenv
-.env
-.env.*
+# .env
+# .env.*
 !.env.example
 
 # Composer

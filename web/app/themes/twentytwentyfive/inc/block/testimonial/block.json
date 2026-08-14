@@ -1,0 +1,16 @@
+{
+    "name": "acf/testimonial",
+    "title": "Témoignage",
+    "category": "text",
+    "icon": "block-default",
+    "render": "template.php",
+    "attributes": {
+        "author_name":  { "type": "string", "default": "" },
+        "quote":        { "type": "string", "default": "" },
+        "author_photo": { "type": "number", "default": 0 }
+    },
+    "supports": {
+        "align": true,
+        "anchor": true
+    }
+}
